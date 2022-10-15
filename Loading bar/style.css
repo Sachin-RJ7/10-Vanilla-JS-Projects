@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: lightgray;
+    font-family: cursive;
+}
+
+.container {
+    text-align: center;
+    width: 400px;
+    position: relative;
+}
+
+.counter {
+    font-size: 40px;
+}
+
+.loading_bar_back {
+    position: absolute;
+    height: 8px;
+    background-color: lightgrey;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.loading_bar_front {
+    position: absolute;
+    height: 8px;
+    background-color: orangered;
+    width: 0%;
+    border-radius: 5px;
+    border: none;
+}
