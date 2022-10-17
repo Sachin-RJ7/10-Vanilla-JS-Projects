@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    background-color:lightskyblue;
+}
+
+.container {
+    width: 250px;
+    max-width: 18.75rem;
+    margin: 2rem;
+    border: 1px solid grey;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.container ul li:not(.month) {
+    margin: 2rem 0;
+}
+
+.container ul .month {
+    background-color: orangered;
+    padding: .5rem 0;
+    font-weight: 600;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;   
+}
+
+.container ul .day,
+.container ul .year {
+    color: grey;
+}
+
+.container ul .date {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
